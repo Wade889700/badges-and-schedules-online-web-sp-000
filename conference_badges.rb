@@ -5,7 +5,10 @@ array = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 my_array =[]
 def batch_badge_creator(array)
   my_array =[]
-    array.each do |name|
-    return my_array.push("Hello, my name is #{name}.")
+  counter = 0
+    loop do
+      name = array[counter]
+      my_array.push("Hello, my name is #{name}.")
+      counter += 1 
     end
 end
