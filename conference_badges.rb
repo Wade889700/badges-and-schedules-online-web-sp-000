@@ -23,7 +23,7 @@ def assign_rooms(array)
   while counter<=array.size-1
     name = array[counter]
     room_number = room[counter]
-    my_array.push("Hello, #{name}! You'll be assigned to room #{room_number}, ")
+    my_array.push("Hello, #{name}! You'll be assigned to room #{room_number}!")
     counter += 1
   end
   return my_array
