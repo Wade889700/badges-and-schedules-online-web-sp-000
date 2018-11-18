@@ -17,16 +17,16 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  my_array =[]
+  room_result =[]
   room = ["1","2","3","4","5","6","7"]
   counter = 0
   while counter<=array.size-1
     name = array[counter]
     room_number = room[counter]
-    my_array.push("Hello, #{name}! You'll be assigned to room #{room_number}!")
+    room_result .push("Hello, #{name}! You'll be assigned to room #{room_number}!")
     counter += 1
   end
-  return my_array
+  return room_result 
 end
 
 def printer
