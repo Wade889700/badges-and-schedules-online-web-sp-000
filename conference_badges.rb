@@ -11,4 +11,5 @@ def batch_badge_creator(array)
       my_array.push("Hello, my name is #{name}.")
       counter += 1
     end
+    return my_array
 end
