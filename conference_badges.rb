@@ -4,6 +4,7 @@ end
 
 array = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 room = ["1","2","3","4","5","6","7"]
+
 def batch_badge_creator(array)
   my_array =[]
   counter = 0
