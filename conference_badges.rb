@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 array = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-room = ["1","2","3","4","5","6","7"]
+
 
 def batch_badge_creator(array)
   my_array =[]
@@ -16,8 +16,9 @@ def batch_badge_creator(array)
     return my_array
 end
 
-def assign_rooms(array,room)
+def assign_rooms(array)
   my_array =[]
+  room = ["1","2","3","4","5","6","7"]
   counter = 0
   while counter<=array.size-1
     name = array[counter]
