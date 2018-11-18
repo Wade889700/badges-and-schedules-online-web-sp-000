@@ -6,9 +6,9 @@ my_array =[]
 def batch_badge_creator(array)
   my_array =[]
   counter = 0
-    loop do
+    while counter<=array.size-1
       name = array[counter]
       my_array.push("Hello, my name is #{name}.")
-      counter += 1 
+      counter += 1
     end
 end
